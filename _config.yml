@@ -1,0 +1,99 @@
+# Mounika Palli - Data Analyst Portfolio
+# GitHub Pages Configuration
+
+# Site Configuration
+site:
+  title: Mounika Palli - Data Analyst Portfolio
+  description: Comprehensive data analyst internship portfolio showcasing four major analytics projects and professional expertise in data analysis, visualization, and business intelligence.
+  url: "https://mounikapalli06.github.io"
+  author: Mounika Palli
+  email: mounika.palli@email.com
+
+# Social Links
+social:
+  github: https://github.com/MounikaPalli06
+  linkedin: https://www.linkedin.com/in/mounika-palli-377314332/
+
+# Navigation
+navigation:
+  - name: Home
+    url: /
+  - name: Projects
+    url: /#projects
+  - name: Skills
+    url: /#skills
+  - name: About
+    url: /#about
+  - name: Contact
+    url: /#contact
+
+# Projects
+projects:
+  - name: "Task 1: Data Analysis Fundamentals"
+    description: "Comprehensive exploratory data analysis with statistical insights and foundational visualization techniques."
+    url: "https://github.com/MounikaPalli06/DA_Task1"
+    technologies: ["Python", "Pandas", "EDA", "Statistics"]
+    
+  - name: "Task 2: Advanced Data Visualization"
+    description: "Interactive dashboards and compelling visual storytelling with multi-dimensional data exploration."
+    url: "https://github.com/MounikaPalli06/DA_Task2"
+    technologies: ["Tableau", "Power BI", "Dashboard Design", "Visualization"]
+    
+  - name: "Task 3: Deep Analytics & Insights"
+    description: "Advanced statistical analysis with predictive insights and business-critical recommendations."
+    url: "https://github.com/MounikaPalli06/DA_Task3"
+    technologies: ["Advanced Analytics", "Predictions", "Business Intelligence"]
+    
+  - name: "Task 4: End-to-End Analytics"
+    description: "Complete analytics lifecycle with integrated data sources and strategic recommendations."
+    url: "https://github.com/MounikaPalli06/DA_Task4"
+    technologies: ["Full Stack Analytics", "Integration", "Strategy"]
+
+# Skills
+skills:
+  programming:
+    - name: Python
+      level: 90
+    - name: SQL
+      level: 85
+    - name: R
+      level: 75
+  
+  visualization:
+    - name: Tableau
+      level: 85
+    - name: Power BI
+      level: 80
+    - name: Excel
+      level: 95
+  
+  analytics:
+    - name: Statistical Analysis
+      level: 85
+    - name: Data Visualization
+      level: 88
+    - name: Business Intelligence
+      level: 82
+
+# Build Settings
+markdown: kramdown
+theme: minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files
+exclude:
+  - CHANGELOG.md
+  - README.md
+  - LICENSE
+  - .gitignore
+
+# Analytics
+google_analytics: "YOUR_GOOGLE_ANALYTICS_ID"
+
+# SEO
+keywords: "data analytics, data science, portfolio, internship, tableau, power bi, python, sql"
+
+# Footer
+footer_text: "&copy; 2026 Mounika Palli. All rights reserved. Data Analyst Internship Portfolio."
